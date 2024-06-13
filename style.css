@@ -1,0 +1,31 @@
+body{
+    background-color: #000000;
+}
+.img {
+    display: flex;
+    flex-direction: column; /* add this to stack the image and text vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* adjust the height to your liking */
+    width: 100%; /* adjust the width to your liking */
+    position: relative; /* add this to make the overlay absolute */
+  }
+  
+ .img img {
+    max-width: 80%; /* adjust the max-width to your liking */
+    margin: 0 auto;
+    padding: 20px; /* add padding around the image */
+    border: 10px solid #FFFFFF; /* add a white border around the image */
+    border-radius: 10px; /* add a border radius to the image (optional) */
+  }
+  
+  h1 {
+    /* remove absolute positioning and top/left/transform styles */
+    text-align: center;
+    font-size: 24px; /* adjust the font size to your liking */
+    font-weight: bold; /* make the text bold */
+    color: rgb(255, 255, 255); /* adjust the text color to your liking */
+    margin-top: 20px; /* add some margin to separate the text from the image */
+    font-family: cursive;
+    text-shadow: rgb(17, 155, 148) 5px 5px 5px;
+}
